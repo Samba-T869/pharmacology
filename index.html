@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>liBro la Md3</title>
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <style>
+  body{
+    background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("steth.webp") no-repeat center center fixed;
+    background-size: cover;
+  }
+  h1{color: blue}
+  h2{
+color: rgba(0,40,255,0.5);
+}
+  table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 4px;
+    background-color: #fcfcfc;
+    width: 100%;
+  }
+  th{
+    text-align: center;
+    border: 1px solid black;
+    padding: 8px;
+    background-color: #e6f2ff;
+  } 
+  td{
+    border: 1px solid black;
+    text-align: left;
+    padding: 2px 6px;
+    vertical-align: top;
+  }
+  caption{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #0000ff;
+  }
+  h2 {
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 4px;
+  }
+  .first, .second {
+    margin-bottom: 24px;
+  }
+  header{
+    width: 100%;
+  }
+  p{
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  p span{
+    color: blue;
+    font-size: 1.2rem;
+    text-align: center;
+ }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Simple summary</h1>
+  </header>
+  
+  <section>
+    <h2>1. Selective toxicity & Drug resistance in parasites</h2>
+    <div class="frst">
+      <h3>Selective toxicity</h3>
+      <table>
+        <tr>
+          <th>Definition</th>
+          <th>Mechanism</th>
+          <th>Example</th>
+        </tr>
+        <tr>
+          <td>Ability of antimicrobial to inhibit/kill pathogen with minimal host damage</td>
+          <td><ul style="margin:2px">
+            <li>Selective inhibition of cell wall synthesis</li>
+            <li>Inhibition of unique metabolic pathways</li>
+            <li>Selective blockade of microbial ribosomes</li>
+            <li>Disruption of parasite tubulin polymerization</li>
+          </ul></td>
+          <td><ul style="margin:2px">
+            <li>Penicillins, vancomycin</li>
+            <li>Sulfonamides, trimethoprim</li>
+            <li>Macrolides, tetracyclines</li>
+            <li>Benzimidazoles (albendazole)</li>
+          </ul></td>
+        </tr>
+      </table>
+    </div>
+    <div class="second">
+      <h3>Drug resistance</h3>
+      <table>
+        <tr>
+          <th>Drug</th>
+          <th>Mechanism of resistance</th>
+          <th>Dose (adult)</th>
+        </tr>
+        <tr>
+          <td>Chloroquine</td>
+          <td>PfCRT mutation → reduced drug accumulation in digestive vacuole</td>
+          <td>600 mg base, then 300 mg at 6/24/48h</td>
+        </tr>
+        <tr>
+          <td>Metronidazole</td>
+          <td>Reduced nitroreductase activity; efflux pumps</td>
+          <td>750 mg tid ×10d (amoebiasis)</td>
+        </tr>
+        <tr>
+          <td>Sulfadoxine-pyrimethamine</td>
+          <td>Mutated DHFR/DHPS enzymes</td>
+          <td>3 tablets single dose (IPTp)</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  
+  <section>
+    <h2>2. Disinfectants and antiseptic</h2>
+    <div class="first">
+      <h3>First line drugs / common agents</h3>
+      <table>
+        <tr>
+          <th>Drug</th>
+          <th>Mechanism of action</th>
+          <th>Typical use/concentration</th>
+          <th>Adverse effects</th>
+        </tr>
+        <tr>
+          <td>Chlorhexidine</td>
+          <td>Disrupts cell membrane, precipitates cytoplasm</td>
+          <td>0.05–4% (surgical scrub, oral rinse)</td>
+          <td><ul><li>Ototoxicity (if in ear)</li><li>Staining of teeth</li></ul></td>
+        </tr>
+        <tr>
+          <td>Povidone-iodine</td>
+          <td>Oxidation/halogenation of proteins</td>
+          <td>7.5–10% solution (preoperative)</td>
+          <td><ul><li>Contact dermatitis</li><li>Thyroid suppression (neonates)</li></ul></td>
+        </tr>
+        <tr>
+          <td>Ethanol (70%)</td>
+          <td>Protein denaturation, lipid dissolution</td>
+          <td>hand sanitizer, skin prep</td>
+          <td><ul><li>Drying, irritation</li><li>Flammable</li></ul></td>
+        </tr>
+      </table>
+    </div>
+    <div class="second">
+      <h3>Second line / specific agents</h3>
+      <table>
+        <tr>
+          <th>Drug</th>
+          <th>Mechanism of action</th>
+          <th>Use/dose</th>
+          <th>Adverse effects</th>
+        </tr>
+        <tr>
+          <td>Hydrogen peroxide</td>
+          <td>Oxidative burst via free radicals</td>
+          <td>3% (wound cleansing)</td>
+          <td><ul><li>Tissue toxicity</li><li>Embolism if under pressure</li></ul></td>
+        </tr>
+        <tr>
+          <td>Sodium hypochlorite</td>
+          <td>Oxidizes sulfhydryl enzymes</td>
+          <td>0.05–0.5% (Dakin solution)</td>
+          <td><ul><li>Irritant</li><li>Corrosive</li></ul></td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  
+  <section>
+    <h2>3. Antibacterial drugs</h2>
+    <div class="first">
+      <h3>First line drugs</h3>
+      <table>
+        <tr>
+          <th>Drug</th>
+          <th>Mechanism of action</th>
+          <th>Dose (adult)</th>
+          <th>Adverse effects</th>
+        </tr>
+        <tr>
+          <td>Amoxicillin</td>
+          <td>Inhibits PBPs → cell wall lysis</td>
+          <td>500 mg tid or 875 mg bid</td>
+          <td><ul><li>Rash, diarrhea</li><li>Hypersensitivity</li></ul></td>
+        </tr>
+        <tr>
+          <td>Ciprofloxacin</td>
+          <td>Inhibits DNA gyrase/topoisomerase IV</td>
+          <td>500 mg bid</td>
+          <td><ul><li>Tendonitis</li><li>QT prolongation</li></ul></td>
+        </tr>
+        <tr>
+          <td>Doxycycline</td>
+          <td>30S ribosomal inhibition</td>
+          <td>100 mg bid</td>
+          <td><ul><li>Photosensitivity</li><li>Esophagitis</li></ul></td>
+        </tr>
+      </table>
+    </div>
+    <div class="second">
+      <h3>Second line drugs</h3>
+      <table>
+        <tr>
+          <th>Drug</th>
+          <th>Mechanism of action</th>
+          <th>Dose (adult)</th>
+          <th>Adverse effects</th>
+        </tr>
+        <tr>
+          <td>Linezolid</td>
+          <td>50S inhibition (initiation complex)</td>
+          <td>600 mg bid</td>
+          <td><ul><li>Myelosuppression</li><li>Serotonin syndrome</li></ul></td>
+        </tr>
+        <tr>
+          <td>Colistin</td>
+          <td>Disrupts LPS, increases permeability</td>
+          <td>2.5–5 mg/kg/day IV</td>
+          <td><ul><li>Nephrotoxicity</li><li>Neurotoxicity</li></ul></td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  
+  <section>
+    <h2>4. Antimycobacterial drugs</h2>
+    <div class="first">
+      <h3>First line drugs</h3>
+      <table>
+        <tr>
+          <th>Drug</th>
+          <th>Mechanism of action</th>
+          <th>Dose (daily)</th>
+          <th>Adverse effects</th>
+        </tr>
+        <tr>
+          <td>Isoniazid (INH)</td>
+          <td>Inhibits mycolic acid synthesis (KatG activation)</td>
+          <td>5 mg/kg (max 300 mg)</td>
+          <td><ul><li>Peripheral neuropathy</li><li>Hepatitis</li><li>Lupus-like</li></ul></td>
+        </tr>
+        <tr>
+          <td>Rifampicin</td>
+          <td>Inhibits DNA-dependent RNA polymerase</td>
+          <td>10 mg/kg (max 600 mg)</td>
+          <td><ul><li>Orange secretions</li><li>Hepatitis</li><li>Flulike</li></ul></td>
+        </tr>
+        <tr>
+          <td>Pyrazinamide</td>
+          <td>Converted to pyrazinoic acid (acidic pH)</td>
+          <td>25 mg/kg</td>
+          <td><ul><li>Hyperuricemia</li><li>Hepatotoxicity</li></ul></td>
+        </tr>
+      </table>
+    </div>
+    <div class="second">
+      <h3>Second line drugs</h3>
+      <table>
+        <tr>
+          <th>Drug</th>
+          <th>Mechanism of action</th>
+          <th>Dose (adult)</th>
+          <th>Adverse effects</th>
+        </tr>
+        <tr>
+          <td>Amikacin</td>
+          <td>30S ribosomal subunit</td>
+          <td>15 mg/kg IM/IV</td>
+          <td><ul><li>Ototoxicity</li><li>Nephrotoxicity</li></ul></td>
+        </tr>
+        <tr>
+          <td>Bedaquiline</td>
+          <td>Inhibits mycobacterial ATP synthase</td>
+          <td>400 mg daily ×2w then 200 mg 3×/w</td>
+          <td><ul><li>QT prolongation</li><li>Hepatotoxicity</li></ul></td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  
+  <section>
+    <h2>5. Antifungal agents</h2>
+    <div class="first">
+      <h3>First line drugs</h3>
+      <table>
+        <tr>
+          <th>Drug</th>
+          <th>Mechanism of action</th>
+          <th>Dose</th>
+          <th>Adverse effects</th>
+        </tr>
+        <tr>
+          <td>Fluconazole</td>
+          <td>Inhibits 14α-demethylase (ergosterol synthesis)</td>
+          <td>200–400 mg/day PO/IV</td>
+          <td><ul><li>Hepatotoxicity</li><li>Alopecia (long-term)</li></ul></td>
+        </tr>
+        <tr>
+          <td>Amphotericin B deoxycholate</td>
+          <td>Binds ergosterol → pores, oxidative damage</td>
+          <td>0.5–1 mg/kg/day IV</td>
+          <td><ul><li>Infusion reactions</li><li>Nephrotoxicity</li><li>Hypokalemia</li></ul></td>
+        </tr>
+      </table>
+    </div>
+    <div class="second">
+      <h3>Second line / other agents</h3>
+      <table>
+        <tr>
+          <th>Drug</th>
+          <th>Mechanism of action</th>
+          <th>Dose</th>
+          <th>Adverse effects</th>
+        </tr>
+        <tr>
+          <td>Caspofungin</td>
+          <td>Inhibits β-glucan synthase</td>
+          <td>70 mg load → 50 mg/day</td>
+          <td><ul><li>Histamine release</li><li>Hepatotoxicity</li></ul></td>
+        </tr>
+        <tr>
+          <td>Terbinafine</td>
+          <td>Inhibits squalene epoxidase</td>
+          <td>250 mg/day (dermatophytes)</td>
+          <td><ul><li>Taste disturbance</li><li>Hepatotoxicity</li></ul></td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  
+  <section>
+    <h2>6. Antiviral and antiretroviral drugs</h2>
+    <div class="first">
+      <h3>First line antiretrovirals (ART)</h3>
+      <table>
+        <tr>
+          <th>Drug</th>
+          <th>Mechanism of action</th>
+          <th>Dose (adult)</th>
+          <th>Adverse effects</th>
+        </tr>
+        <tr>
+          <td>Tenofovir disoproxil</td>
+          <td>Nucleotide RT inhibitor</td>
+          <td>300 mg daily</td>
+          <td><ul><li>Nephrotoxicity</li><li>Bone density loss</li></ul></td>
+        </tr>
+        <tr>
+          <td>Dolutegravir</td>
+          <td>Integrase strand transfer inhibitor</td>
+          <td>50 mg daily</td>
+          <td><ul><li>Insomnia</li><li>Elevated creatinine</li></ul></td>
+        </tr>
+      </table>
+    </div>
+    <div class="second">
+      <h3>Anti-herpes / influenza</h3>
+      <table>
+        <tr>
+          <th>Drug</th>
+          <th>Mechanism of action</th>
+          <th>Dose</th>
+          <th>Adverse effects</th>
+        </tr>
+        <tr>
+          <td>Acyclovir</td>
+          <td>Viral DNA polymerase inhibitor (after TK activation)</td>
+          <td>400 mg tid (HSV) / 800 mg 5×/day (VZV)</td>
+          <td><ul><li>Nephrotoxicity (IV)</li><li>CNS effects</li></ul></td>
+        </tr>
+        <tr>
+          <td>Oseltamivir</td>
+          <td>Neuraminidase inhibitor</td>
+          <td>75 mg bid</td>
+          <td><ul><li>Nausea</li><li>Neuropsychiatric (rare)</li></ul></td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  
+  <section>
+    <h2>7. Dysentery, amoebiasis & schistosomiasis</h2>
+    <div class="first">
+      <h3>First line drugs</h3>
+      <table>
+        <tr>
+          <th>Drug</th>
+          <th>Mechanism of action</th>
+          <th>Dose</th>
+          <th>Adverse effects</th>
+        </tr>
+        <tr>
+          <td>Metronidazole</td>
+          <td>Nitro radical intermediate → DNA disruption</td>
+          <td>750 mg tid ×10d (amoebic abscess)</td>
+          <td><ul><li>Metallic taste</li><li>Neuropathy (long)</li></ul></td>
+        </tr>
+        <tr>
+          <td>Praziquantel</td>
+          <td>Increases Ca²⁺ permeability (schistosomes)</td>
+          <td>40–60 mg/kg divided</td>
+          <td><ul><li>Abdominal pain</li><li>Dizziness</li></ul></td>
+        </tr>
+      </table>
+    </div>
+    <div class="second">
+      <h3>Second line / luminal amoebicide</h3>
+      <table>
+        <tr>
+          <th>Drug</th>
+          <th>Mechanism of action</th>
+          <th>Dose</th>
+          <th>Adverse effects</th>
+        </tr>
+        <tr>
+          <td>Diloxanide furoate</td>
+          <td>Unknown (direct amoebicidal)</td>
+          <td>500 mg tid ×10d</td>
+          <td><ul><li>Flatulence</li><li>Urticaria</li></ul></td>
+        </tr>
+        <tr>
+          <td>Tinidazole</td>
+          <td>Same as metronidazole, longer half-life</td>
+          <td>2 g daily ×3d</td>
+          <td><ul><li>Less GI upset</li><li>Metallic taste</li></ul></td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  
+  <section>
+    <h2>8. Antihelminthic drugs</h2>
+    <div class="first">
+      <h3>First line drugs</h3>
+      <table>
+        <tr>
+          <th>Drug</th>
+          <th>Mechanism of action</th>
+          <th>Dose</th>
+          <th>Adverse effects</th>
+        </tr>
+        <tr>
+          <td>Albendazole</td>
+          <td>Inhibits tubulin polymerization, blocks glucose uptake</td>
+          <td>400 mg single / 400 mg bid (tissue)</td>
+          <td><ul><li>LFT elevation</li><li>Bone marrow (high dose)</li></ul></td>
+        </tr>
+        <tr>
+          <td>Ivermectin</td>
+          <td>Glutamate-gated Cl channel → paralysis</td>
+          <td>150–200 µg/kg (scabies/strongyloides)</td>
+          <td><ul><li>Mazzotti reaction (onchocerciasis)</li></ul></td>
+        </tr>
+      </table>
+    </div>
+    <div class="second">
+      <h3>Second line / specific</h3>
+      <table>
+        <tr>
+          <th>Drug</th>
+          <th>Mechanism of action</th>
+          <th>Dose</th>
+          <th>Adverse effects</th>
+        </tr>
+        <tr>
+          <td>Praziquantel</td>
+          <td>Disrupts tegument Ca²⁺ flux</td>
+          <td>10–25 mg/kg (tapeworm)</td>
+          <td><ul><li>Drowsiness</li><li>Headache</li></ul></td>
+        </tr>
+        <tr>
+          <td>Diethylcarbamazine</td>
+          <td>Inhibits arachidonic acid, immobilizes microfilariae</td>
+          <td>6 mg/kg/day ×12d</td>
+          <td><ul><li>Filarial fever, arthritis</li></ul></td>
+        </tr>
+      </table>
+      </div>
+  </section>
+  
+  <section>
+    <h2>9. Giardiasis, toxoplasmosis, leishmaniasis, trypanosomiasis & pneumocystosis</h2>
+    <div class="first">
+      <h3>First line drugs</h3>
+      <table>
+        <tr>
+          <th>Drug</th>
+          <th>Mechanism of action</th>
+          <th>Dose (adult)</th>
+          <th>Adverse effects</th>
+        </tr>
+        <tr>
+          <td>Tinidazole (Giardia)</td>
+          <td>DNA damage (nitro radical)</td>
+          <td>2 g single dose</td>
+          <td><ul><li>Bitter taste</li><li>GI upset</li></ul></td>
+        </tr>
+        <tr>
+          <td>Pyrimethamine + sulfadiazine (Toxo)</td>
+          <td>Synergistic folate antagonists</td>
+          <td>25–50 mg/d + 1‑2 g qid</td>
+          <td><ul><li>Bone marrow suppression</li><li>Crystalluria</li></ul></td>
+        </tr>
+        <tr>
+          <td>Liposomal amphotericin B (Leishmania)</td>
+          <td>Binds ergosterol-like sterols</td>
+          <td>3 mg/kg/day (1‑5)</td>
+          <td><ul><li>Infusion reactions</li><li>hypokalemia</li></ul></td>
+        </tr>
+      </table>
+    </div>
+    <div class="second">
+      <h3>Second line / other</h3>
+      <table>
+        <tr>
+          <th>Drug</th>
+          <th>Mechanism of action</th>
+          <th>Dose</th>
+          <th>Adverse effects</th>
+        </tr>
+        <tr>
+          <td>Suramin (African trypanosomiasis)</td>
+          <td>Inhibits multiple parasitic enzymes</td>
+          <td>1 g IV (test dose)</td>
+          <td><ul><li>Nephrotoxicity</li><li>Adrenal insufficiency</li></ul></td>
+        </tr>
+        <tr>
+          <td>Pentamidine (PCP / Leishmania)</td>
+          <td>Interferes with polyamine synthesis</td>
+          <td>4 mg/kg/day IV/IM</td>
+          <td><ul><li>Hypotension</li><li>Dysglycemia</li></ul></td>
+        </tr>
+        <tr>
+          <td>Atovaquone (PCP)</td>
+          <td>Inhibits mitochondrial electron transport</td>
+          <td>750 mg bid</td>
+          <td><ul><li>Rash</li><li>Diarrhea</li></ul></td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  
+  <section>
+    <h2>10. Antimalarial drugs</h2>
+    <div class="first">
+      <h3>First line drugs (artemisinin-based)</h3>
+      <table>
+        <tr>
+          <th>Drug</th>
+          <th>Mechanism of action</th>
+          <th>Dose (ACT)</th>
+          <th>Adverse effects</th>
+        </tr>
+        <tr>
+          <td>Artemether-lumefantrine</td>
+          <td>Art: free radicals; Lume: inhibits hemozoin</td>
+          <td>4 tabs bid ×3d (weight based)</td>
+          <td><ul><li>QT prolongation</li><li>Anorexia</li></ul></td>
+        </tr>
+        <tr>
+          <td>Primaquine</td>
+          <td>8‑aminoquinolone → radical cure (hypnozoites)</td>
+          <td>30 mg/d ×14d (P. vivax)</td>
+          <td><ul><li>Hemolysis (G6PD def.)</li><li>Methemoglobinemia</li></ul></td>
+        </tr>
+      </table>
+    </div>
+    <div class="second">
+      <h3>Second line / prophylaxis</h3>
+      <table>
+        <tr>
+          <th>Drug</th>
+          <th>Mechanism of action</th>
+          <th>Dose</th>
+          <th>Adverse effects</th>
+        </tr>
+        <tr>
+          <td>Atovaquone-proguanil</td>
+          <td>Cyt bc1 inhibitor + DHFR inhibitor</td>
+          <td>250/100 mg daily (prophylaxis)</td>
+          <td><ul><li>Abdominal pain</li><li>Headache</li></ul></td>
+        </tr>
+        <tr>
+          <td>Quinine sulfate</td>
+          <td>Inhibits hemozoin polymerization</td>
+          <td>648 mg tid ×7d (plus doxy)</td>
+          <td><ul><li>Cinchonism</li><li>Hypoglycemia</li></ul></td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  
+  <section>
+    <h2>11. Anti-asthma drugs</h2>
+    <div class="first">
+      <h3>Controllers</h3>
+      <table>
+        <tr>
+          <th>Drug</th>
+          <th>Mechanism of action</th>
+          <th>Dose (inhaler)</th>
+          <th>Adverse effects</th>
+        </tr>
+        <tr>
+          <td>Fluticasone (ICS)</td>
+          <td>Glucocorticoid receptor → ↓ cytokines</td>
+          <td>88–440 µg bid</td>
+          <td><ul><li>Oropharyngeal candidiasis</li><li>Dysphonia</li></ul></td>
+        </tr>
+        <tr>
+          <td>Salmeterol (LABA)</td>
+          <td>Long-acting β2 agonist</td>
+          <td>50 µg bid</td>
+          <td><ul><li>Tachycardia</li><li>Tremor</li></ul></td>
+        </tr>
+      </table>
+    </div>
+    <div class="second">
+      <h3>Relievers</h3>
+      <table>
+        <tr>
+          <th>Drug</th>
+          <th>Mechanism of action</th>
+          <th>Dose</th>
+          <th>Adverse effects</th>
+        </tr>
+        <tr>
+          <td>Albuterol (salbutamol)</td>
+          <td>Short-acting β2 agonist</td>
+          <td>90 µg (2 puffs) q4h prn</td>
+          <td><ul><li>Palpitations</li><li>Hypokalemia</li></ul></td>
+        </tr>
+        <tr>
+          <td>Ipratropium bromide</td>
+          <td>Anticholinergic, ↓ vagal tone</td>
+          <td>34 µg qid</td>
+          <td><ul><li>Dry mouth</li><li>Bitter taste</li></ul></td>
+        </tr>
+        <tr>
+          <td>Montelukast</td>
+          <td>CysLT1 receptor antagonist</td>
+          <td>10 mg daily</td>
+          <td><ul><li>Neuropsychiatric events</li><li>Headache</li></ul></td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  <hr>
+  <p>Wish you successfully exam <brp> <span>&copy; libro</span></p>
+  <script>
+    function downloadAsImage() {
+      const element = document.querySelector('table'); // downloads first table
+      html2canvas(element).then(canvas => {
+        const image = canvas.toDataURL("image/jpeg", 1.0);
+        const link = document.createElement('a');
+        link.href = image;
+        link.download = prompt("File name:", "pharma_table");
+        link.click();
+      });
+    }
+  </script>
+</body>
+</html>
